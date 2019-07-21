@@ -4,6 +4,11 @@
 A simple Webpack Starter configured for Development with [webpack-dev-server](https://github.com/webpack/webpack-dev-server) and Production with [Zero Server](https://github.com/remoteinterview/zero).
 
 ## How To Use.
+First, install dependencies with:
+```bash
+npm install
+```
+
 There're 3 scripts which you can see in `package.json`:  
 - `npm run build`: Creates the bundle.js file in `dist/` folder.  
 - `npm run dev`: Runs the `webpack-dev-server` with `webpack.dev.js` configuration.  
